@@ -4,36 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keaton Black</title>
-    <style>
-        body {
-            background: rgb(100,100,100);
-            color: whitesmoke;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        h1 {
-            color: rgb(255, 128, 25);
-            border-radius: 10px;
-        }
-        h2 {
-            color: rgb(190, 175, 255);
-        }
-        button {
-            background: gray;
-            border: none;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/kb_style.css"/>
 </head>
-<body>
-    <h1>Keaton's Webpage</h1>
-    <h2>About Me</h2>
-    <p>This is my first time making a webpage from scratch with no assisted tools like Wordpress. I am an <em>embedded software engineer</em>, but have previously developed webpages using Wordpress for organizations I was a part of in college.</p>
-    <button>Click here to learn more</button>
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <a href="https://www.instructables.com/Minimalist-3D-Printed-Fume-Extractor/">Mini Fume Extractor</a>
-        </li>
-    </ul>
+<body class="bg-primary">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro"></a></li>
+                <li><a href="#about"></a></li>
+                <li><a href="#projects"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <div class="Container">
+
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="Container">
+                <h1>About Me</h1>
+                <p>This is my first time making a webpage from scratch with no assisted tools like Wordpress. I am an <em>embedded software engineer</em>, but have previously developed webpages using Wordpress for organizations I was a part of in college.</p>
+                <button>Click here to learn more</button>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="Container">
+                <h1>Projects - Past, Present, and Future</h1>
+                <ul>
+                    <li>First HTML Website (This project)
+                        <ul>
+                            <li>
+                                <a href="https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/">CodeAcademy HTML Beginner</a>
+                            </li>
+                            <li>Self Taught HTML and CSS</li>
+                            <li>Javascript Integration</li>
+                            <li>Reimplemnt website with modern web language</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://www.instructables.com/Minimalist-3D-Printed-Fume-Extractor/">Mini Fume Extractor</a>
+                    </li>
+                </ul>
+
+                <div class="card">
+                    <img src="./img/codecademy.png" alt="Codecademy Logo" style="width:100%"/>
+                    <div>
+                        <h4><b>Codecademy HTML Beginner</b></h4>
+                        <p>Self taught HTML and CSS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
